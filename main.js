@@ -45,4 +45,7 @@ function my_mousemove(e)
     {
         mouseEvent="mouseleave"; 
     }
-}  
+    function clearArea() 
+    { 
+        ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height); 
+    }  
